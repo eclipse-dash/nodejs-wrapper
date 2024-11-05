@@ -73,7 +73,7 @@ A configuration file can be used. Values defined therein will override wrapper d
     "inputFile": "./package-lock.json",
     "batch": "50",
     "timeout": "240",
-    "exclusionsFile": "configs/dashLicensesExclusions.json",
+    "exclusions": "configs/dashLicensesExclusions.json",
     "summaryFile": "dash-licenses-summary.txt"
 }
 ```
