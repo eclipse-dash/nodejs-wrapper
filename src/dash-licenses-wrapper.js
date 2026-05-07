@@ -26,7 +26,7 @@ const regExpReplacer = (key, value) => {
     return value;
 };
 const dashLicensesJar = path.resolve(__dirname, '..', 'download/dash-licenses.jar');
-const dashLicensesDownloadUrl = 'https://repo.eclipse.org/service/local/artifact/maven/redirect?r=dash-licenses&g=org.eclipse.dash&a=org.eclipse.dash.licenses&v=LATEST';
+const dashLicensesDownloadUrl = 'https://repo.eclipse.org/service/rest/v1/search/assets/download?sort=version&repository=dash-maven2-releases&maven.groupId=org.eclipse.dash&maven.artifactId=org.eclipse.dash.licenses&maven.extension=jar';
 const dashLicensesInternalError = 127;
 
 const unsupportedCLIDefault = "Unsupported CLI arg";
